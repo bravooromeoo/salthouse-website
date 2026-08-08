@@ -6,11 +6,12 @@ function Hero() {
         backgroundImage: "url('/images/hero.png')",
       }}
     >
+      {/* Dark overlay */}
       <div className="absolute inset-0 bg-black/45"></div>
 
+      {/* Hero Content */}
       <div className="relative z-10 min-h-screen flex items-end px-8 md:px-16 lg:px-20 pb-24">
         <div className="max-w-3xl text-white">
-
           <p className="uppercase tracking-[0.35em] text-sm text-[#d4b06a] mb-7">
             Private Property Stewardship
           </p>
@@ -25,7 +26,7 @@ function Hero() {
 
           <p className="text-lg md:text-xl leading-relaxed text-white/85 max-w-2xl">
             Discreet. Thorough. Trusted. We care for exceptional homes in Devon
-            and Cornwall with the standards of the world&apos;s finest.
+            and Cornwall with the standards of the world's finest hospitality.
           </p>
 
           <a
@@ -34,15 +35,20 @@ function Hero() {
           >
             Discover Our Services
           </a>
-
         </div>
       </div>
 
+      {/* Scroll Indicator */}
       <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-10 text-center text-[#d4b06a]">
         <p className="uppercase tracking-[0.3em] text-xs mb-2">
           Scroll
         </p>
         <div className="text-2xl">↓</div>
+      </div>
+
+      {/* Construction Notice */}
+      <div className="absolute bottom-6 right-8 z-20 text-white/60 uppercase tracking-[0.25em] text-[10px]">
+        Website under construction
       </div>
     </section>
   );
