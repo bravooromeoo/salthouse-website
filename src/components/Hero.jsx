@@ -38,15 +38,7 @@ function Hero() {
         </div>
       </div>
 
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-10 text-center text-[#d4b06a]">
-        <p className="uppercase tracking-[0.3em] text-xs mb-2">
-          Scroll
-        </p>
-        <div className="text-2xl">↓</div>
-      </div>
-
-      {/* Construction Notice */}
+     {/* Construction Notice */}
       <div className="absolute bottom-6 right-8 z-20 text-white/60 uppercase tracking-[0.25em] text-[10px]">
         Website under construction
       </div>
