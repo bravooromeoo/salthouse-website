@@ -1,33 +1,34 @@
 function Navbar() {
   return (
-    <nav className="absolute top-0 left-0 w-full z-20 px-8 py-6 flex items-center justify-between">
-      
-      <div className="text-sm tracking-[0.28em] uppercase text-stone-900">
-        Salt House Collection
+    <nav className="absolute top-0 left-0 w-full z-30 px-8 md:px-10 py-7 flex items-center justify-between">
+
+      <div className="uppercase tracking-[0.3em] text-[15px] md:text-[17px] text-[#d6b573] font-light">
+        Salt House
       </div>
 
-      <div className="hidden md:flex items-center gap-8 text-sm text-stone-700">
-        <a href="#services" className="hover:text-stone-900 transition">
+      <div className="hidden lg:flex items-center gap-10 uppercase tracking-[0.22em] text-[12px] text-white/80">
+
+        <a href="#stewardship" className="hover:text-[#d6b573] transition duration-300">
+          Stewardship
+        </a>
+
+        <a href="#services" className="hover:text-[#d6b573] transition duration-300">
           Services
         </a>
 
-        <a href="#about" className="hover:text-stone-900 transition">
-          Our Approach
+        <a href="#journal" className="hover:text-[#d6b573] transition duration-300">
+          Journal
         </a>
 
-        <a href="#locations" className="hover:text-stone-900 transition">
-          Devon & Cornwall
+        <a href="#about" className="hover:text-[#d6b573] transition duration-300">
+          About
         </a>
 
-        <a href="#contact" className="hover:text-stone-900 transition">
-          Contact
+        <a href="#enquiry" className="hover:text-[#d6b573] transition duration-300">
+          Enquire
         </a>
+
       </div>
-
-      <button className="border border-stone-900 px-5 py-2 text-sm hover:bg-stone-900 hover:text-white transition">
-        Enquire
-      </button>
-
     </nav>
   );
 }
