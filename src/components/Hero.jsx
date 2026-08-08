@@ -17,7 +17,7 @@ function Hero() {
           </p>
 
           <h1 className="text-5xl md:text-7xl lg:text-8xl leading-[0.95] font-light">
-            Make sure scrumpy stretches for tomorrow!
+            Inspired by luxury
             <br />
             hospitality.
           </h1>
@@ -38,7 +38,8 @@ function Hero() {
         </div>
       </div>
 
-     {/* Construction Notice */}
+    
+ {/* Construction Notice */}
       <div className="absolute bottom-6 right-8 z-20 text-white/60 uppercase tracking-[0.25em] text-[10px]">
         Website under construction
       </div>
