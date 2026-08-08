@@ -17,7 +17,7 @@ function Hero() {
           </p>
 
           <h1 className="text-5xl md:text-7xl lg:text-8xl leading-[0.95] font-light">
-            Inspired by luxury
+            Make sure scrumpy stretches for tomorrow!
             <br />
             hospitality.
           </h1>
