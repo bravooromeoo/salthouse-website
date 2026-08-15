@@ -39,7 +39,7 @@ function Navbar() {
             className="hover:text-[#d4b06a] transition duration-300"
           >
             Enquire
-          </Link>
+          </a>
 
         </div>
       </div>
