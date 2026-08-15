@@ -10,7 +10,7 @@ function Navbar() {
             to="/"
             className="hover:text-[#d4b06a] transition duration-300"
           >
-            Stewardship
+            Home
           </Link>
 
           <a
@@ -35,11 +35,11 @@ function Navbar() {
           </Link>
 
           <a
-            href="#enquiry"
+            href="#enquire"
             className="hover:text-[#d4b06a] transition duration-300"
           >
             Enquire
-          </a>
+          </Link>
 
         </div>
       </div>
